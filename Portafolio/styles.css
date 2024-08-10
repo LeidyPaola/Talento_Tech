@@ -1,0 +1,149 @@
+/* styles.css */
+
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background: #003366;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+ p {
+    margin: 5px 0;
+}
+
+header a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Estilos del main */
+main {
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+h2, h3 {
+    border-bottom: 2px solid #003366;
+    padding-bottom: 5px;
+    color: #003366;
+}
+
+p a {
+    color: #003366;
+}
+
+p a:hover {
+    text-decoration: underline;
+}
+ 
+#about {
+    padding-top: 100px;
+
+}
+.accordion, .education, .course {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.accordion h3, .education h3, .course h3 {
+    margin: 0;
+    cursor: pointer;
+    background: #003366;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    justify-content: space-between;
+    display: flex;
+    padding-left: 20px;
+    
+}
+
+.accordion p, .accordion ul, .education p, .course p {
+    display: none;
+    padding: 10px;
+}
+
+.accordion.active p, .accordion.active ul, .education.active p, .course.active p {
+    display: block;
+    margin: 0 20px;
+
+}
+
+.accordion h3 span, .education h3 span, .course h3 span {
+    font-size: 20px;
+    margin-right: 20px;
+  }
+
+
+/* Estilos del footer */
+footer {
+    background: #003366;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+}
+
+footer p {
+    margin: 10px 0;
+}
+
+button {
+    background: #0066cc;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 1rem;
+    margin-top: 10px;
+}
+
+button:hover {
+    background: #004d99;
+}
