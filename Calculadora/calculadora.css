@@ -1,0 +1,75 @@
+
+h1 {
+    color: blue;
+    text-align: center;
+}
+
+body {
+    font-family: 'Nunito Sans', sans-serif;
+  }
+  
+  .calculadora {
+    width: 400px; 
+    margin: 0 auto; 
+    text-align: center; 
+    border: 2px solid #ccc; 
+    padding: 10px; 
+    text-align: right; 
+    background-color: rgb(12, 12, 182); 
+    border-radius: 10px; 
+    box-shadow: 10px 10px 50px 10px #b5b2b2; 
+}
+
+  
+.pantalla {
+  font-size: 2em; 
+  border: 1px solid #ccc; 
+  margin-bottom: 10px; 
+  padding: 5px; 
+  height: 100px; 
+  background-color: white; 
+  display: flex; 
+  align-items: center; 
+  justify-content: flex-end; 
+  padding-right: 10px; 
+  box-sizing: border-box; 
+}
+
+  
+.teclado {
+  display: grid; 
+  grid-template-columns: repeat(4, 1fr); 
+  gap: 5px; 
+  height: 450px; 
+}
+
+
+  button {
+    border-radius: 15px; 
+  }
+
+  .num {
+    background-color: #8c92ed;
+  }
+
+  .funcion {
+    background-color: #938d8d;
+  }  
+
+  .igual {
+    background-color: rgb(0, 132, 255);
+  }
+
+  .simbolos {
+    background-color: rgb(201, 201, 192);
+  }
+
+  .teclado button {
+    padding: 15px; 
+    font-size: 1.5em; 
+  }
+  
+  .teclado button:hover {
+    background-color: #f0f0f0;
+  }
+  
