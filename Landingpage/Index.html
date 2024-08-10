@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wisles Variedades</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-SXwG26QZdm5JgzT5cMNItZs2ZxfzMHT+aA9Bj0szQ4Aur+3kDhrI2j2hTTv3s2bHD5CMU6tOeuvBmGbH9AJB0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg ">
+            <!-- Logo -->
+            <div class="logo">
+                <img src="img/logo.jpg" alt="Logo de Wisles Variedades">
+                <h1>Wisles Variedades</h1>
+            </div>
+            <!-- Botón de hamburguesa -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"><i class="fas fa-bars"></i></span>
+            </button>
+
+            
+            <!-- Lista de navegación -->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="nav-links">
+                    <li><a class="nav-item" href="#">Inicio</a></li>
+                    <li><a class="nav-item" href="#">Tienda</a></li>
+                    <li><a class="nav-item" href="#">Contacto</a></li>
+                </ul>
+                <ul class="nav-buttons">
+                    <li><a class="nav-item btn" href="#">Login</a></li>
+                    <li><a class="nav-item btn" href="#">Registrar</a></li>
+                </ul>
+            </div>
+        </nav>
+        
+</header>
+    
+    <main>
+
+        <section id="hero" class="hero">
+            <div class="row justify-content-center container-condiciones">
+                    <div class="col-md-6">
+                        <h2>Bienvenidos a Wisles Variedades</h2>
+                        <p>Descubre un universo Montessori lleno de creatividad y desarrollo para tus hijos en Wisles Variedades, donde cada juguete inspira el aprendizaje y la exploración libre.</p>
+                        <button class="cta-button">Explora nuestra tienda</button>
+                    </div>
+              </div>
+            </section>
+
+            <section class="products">
+                <h2 class="text-center">Nuestros Productos</h2>
+            
+                <div class="row justify-content-center">
+                    <div class="col-md-3">
+                        <div class="product">
+                            <img src="img/juguete1.jpg" alt="Juguete Montessori 1">
+                            <h3>Juguete Montessori 1</h3>
+                            <p>$22.900 COP</p>
+                            <button class="add-to-cart btn-carrito" data-product-id="1">Añadir al Carrito</button>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="product">
+                            <img src="img/juguete2.jpg" alt="Juguete Montessori 2">
+                            <h3>Juguete Montessori 2</h3>
+                            <p>$97.200 COP</p>
+                            <button class="add-to-cart btn-carrito" data-product-id="2">Añadir al Carrito</button>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="product">
+                            <img src="img/juguete3.jpg" alt="Juguete Montessori 3">
+                            <h3>Juguete Montessori 3</h3>
+                            <p>$200.500 COP</p>
+                            <button class="add-to-cart btn-carrito" data-product-id="3">Añadir al Carrito</button>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="product">
+                            <img src="img/juguete4.jpg" alt="Juguete Montessori 4">
+                            <h3>Juguete Montessori 4</h3>
+                            <p>$184.900 COP</p>
+                            <button class="add-to-cart btn-carrito" data-product-id="4">Añadir al Carrito</button>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="product">
+                            <img src="img/juguete5.jpg" alt="Juguete Montessori 5">
+                            <h3>Juguete Montessori 5</h3>
+                            <p>$22.900 COP</p>
+                            <button class="add-to-cart btn-carrito" data-product-id="5">Añadir al Carrito</button>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="product">
+                            <img src="img/juguete6.jpg" alt="Juguete Montessori 6">
+                            <h3>Juguete Montessori 6</h3>
+                            <p>$10.000 COP</p>
+                            <button class="add-to-cart btn-carrito" data-product-id="6">Añadir al Carrito</button>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="product">
+                            <img src="img/juguete7.jpg" alt="Juguete Montessori 7">
+                            <h3>Juguete Montessori 7</h3>
+                            <p>$21.700 COP</p>
+                            <button class="add-to-cart btn-carrito" data-product-id="7">Añadir al Carrito</button>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="product">
+                            <img src="img/juguete8.jpg" alt="Juguete Montessori 8">
+                            <h3>Juguete Montessori 8</h3>
+                            <p>$84.900 COP</p>
+                            <button class="add-to-cart btn-carrito" data-product-id="8">Añadir al Carrito</button>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="product">
+                            <img src="img/juguete9.jpg" alt="Juguete Montessori 9">
+                            <h3>Juguete Montessori 9</h3>
+                            <p>$32.900 COP</p>
+                            <button class="add-to-cart btn-carrito" data-product-id="9">Añadir al Carrito</button>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="product">
+                            <img src="img/juguete10.jpg" alt="Juguete Montessori 10">
+                            <h3>Juguete Montessori 10</h3>
+                            <p>$37.200 COP</p>
+                            <button class="add-to-cart btn-carrito" data-product-id="10">Añadir al Carrito</button>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="product">
+                            <img src="img/juguete11.jpg" alt="Juguete Montessori 11">
+                            <h3>Juguete Montessori 11</h3>
+                            <p>$48.500 COP</p>
+                            <button class="add-to-cart btn-carrito" data-product-id="11">Añadir al Carrito</button>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="product">
+                            <img src="img/juguete12.jpg" alt="Juguete Montessori 12">
+                            <h3>Juguete Montessori 12</h3>
+                            <p>$84.900 COP</p>
+                            <button class="add-to-cart btn-carrito" data-product-id="12">Añadir al Carrito</button>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="product">
+                            <img src="img/juguete13.jpg" alt="Juguete Montessori 13">
+                            <h3>Juguete Montessori 13</h3>
+                            <p>$82.900 COP</p>
+                            <button class="add-to-cart btn-carrito" data-product-id="13">Añadir al Carrito</button>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="product">
+                            <img src="img/juguete14.jpg" alt="Juguete Montessori 14">
+                            <h3>Juguete Montessori 14</h3>
+                            <p>$10.000 COP</p>
+                            <button class="add-to-cart btn-carrito" data-product-id="14">Añadir al Carrito</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+
+            <section class="montessori-method">
+                <div class="container">
+                    <h2 class="text-center mb-4">El Método Montessori y los Beneficios de los Juguetes Montessori</h2>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <img src="img/montessori-classroom.jpg" alt="Salón Montessori" class="img-fluid rounded">
+                        </div>
+                        <div class="col-md-6">
+                            <h3>¿Qué es el Método Montessori?</h3>
+                            <p>El Método Montessori es un enfoque educativo desarrollado por la doctora María Montessori que se centra en el desarrollo integral del niño. Se caracteriza por ofrecer un ambiente preparado donde los niños tienen la libertad de elegir sus actividades, aprender a su propio ritmo y desarrollar habilidades a través del juego y la exploración.</p>
+                            <p>Este método promueve la autoeducación, la independencia, la responsabilidad y el respeto hacia los demás. Los salones Montessori están diseñados para facilitar el aprendizaje práctico y sensorial, utilizando materiales educativos específicos que ayudan al niño a desarrollar habilidades cognitivas, físicas y emocionales de manera natural y sin presiones externas.</p>
+                        </div>
+                    </div>
+                    <div class="row mt-4">
+                        <div class="col-md-6 order-md-2">
+                            <img src="img/montessori-toys.jpg" alt="Juguetes Montessori" class="img-fluid rounded">
+                        </div>
+                        <div class="col-md-6 order-md-1">
+                            <h3>Beneficios de los Juguetes Montessori</h3>
+                            <p>Los juguetes Montessori están diseñados para promover el desarrollo holístico de los niños. Estos juguetes no solo entretienen, sino que también educan y estimulan diferentes áreas del desarrollo infantil:</p>
+                            <ul>
+                                <li><strong>Desarrollo cognitivo:</strong> Fomentan la resolución de problemas, la concentración y el pensamiento creativo.</li>
+                                <li><strong>Desarrollo físico:</strong> Mejoran la coordinación, la motricidad fina y la fuerza muscular.</li>
+                                <li><strong>Desarrollo emocional:</strong> Ayudan a gestionar emociones, desarrollar la autoestima y promover la autoconfianza.</li>
+                                <li><strong>Desarrollo social:</strong> Facilitan el juego colaborativo, la comunicación y el trabajo en equipo.</li>
+                            </ul>
+                            <p>Además, los juguetes Montessori están hechos de materiales naturales y sostenibles, lo que los convierte en opciones respetuosas con el medio ambiente y seguras para los niños.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+
+
+            <section class="featured">
+                <div class="container">
+                    <h2 class="text-center mb-4">Productos Destacados</h2>
+                    
+                    <div id="productCarousel" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                        <li data-target="#productCarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#productCarousel" data-slide-to="1"></li>
+                        <!-- Agrega más indicadores según sea necesario -->
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="row justify-content-center">
+                                <div class="col-md-5">
+                                    <div class="product">
+                                        <img src="img/juguete1.jpg" alt="Juguete Montessori 1">
+                                        <h3>Juguete Montessori 1</h3>
+                                        <p>$72.900 COP</p>
+                                        <button class="add-to-cart btn-carrito" data-product-id="1">Añadir al Carrito</button>
+                                    </div>
+                                </div>
+                                <div class="col-md-5">
+                                    <div class="product">
+                                        <img src="img/juguete2.jpg" alt="Juguete Montessori 2">
+                                        <h3>Juguete Montessori 2</h3>
+                                        <p>$97.200 COP</p>
+                                        <button class="add-to-cart btn-carrito" data-product-id="2">Añadir al Carrito</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row justify-content-center">
+                                <div class="col-md-5">
+                                    <div class="product">
+                                        <img src="img/juguete5.jpg" alt="Juguete Montessori 5">
+                                        <h3>Juguete Montessori 5</h3>
+                                        <p>$22.900 COP</p>
+                                        <button class="add-to-cart btn-carrito" data-product-id="5">Añadir al Carrito</button>
+                                    </div>
+                                </div>
+                                <div class="col-md-5">
+                                    <div class="product">
+                                        <img src="img/juguete6.jpg" alt="Juguete Montessori 6">
+                                        <h3>Juguete Montessori 6</h3>
+                                        <p>$10.000 COP</p>
+                                        <button class="add-to-cart btn-carrito" data-product-id="6">Añadir al Carrito</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Agregar más elementos de carousel-item según sea necesario -->
+                    </div>
+                    <a class="carousel-control-prev" href="#productCarousel" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Anterior</span>
+                    </a>
+                    <a class="carousel-control-next" href="#productCarousel" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Siguiente</span>
+                    </a>
+                </div>
+            </section>
+            
+       
+
+  
+
+    <div class="location">
+            <div >
+                <h2>Encuéntranos</h2>
+                <p><strong>Dirección:</strong> Kennedy Central, Bogotá, Colombia</p>
+                <p><strong>Teléfono:</strong> +57 123 456 789</p>
+                <p><strong>Email:</strong> info@wislesvariedades.com</p>
+            </div>
+            <div >
+                <!-- Integración de Google Maps -->
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7953.686391307677!2d-74.15219440000001!3d4.622049650000014!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9e996bf1d97b%3A0x29af73658a7cf760!2sCiudad%20Kennedy%20Central%2C%20Antonio%20Nari%C3%B1o%2C%20Bogot%C3%A1!5e0!3m2!1ses-419!2sco!4v1720474775709!5m2!1ses-419!2sco" width="90%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>            </div>
+            </div>
+        </div>
+    </div>
+</section>
+    </main>
+
+    
+    
+    <footer>
+        <div class="footer-sections">
+            <div class="col-md-4 footer-section">
+                <h3>Wisles Variedades</h3>
+                <p>Somos una tienda especializada en juguetes Montessori y productos educativos para niños.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Ayuda</h3>
+                <p><a href="#">Preguntas Frecuentes</a></p>
+                <p><a href="#">Soporte</a></p>
+            </div>
+            <div class="footer-section">
+                <h3>Redes Sociales</h3>
+                <p><a href="#" class="icon">Facebook<img src="img/fb.jpg" alt="Facebook"></a></p>
+                <p><a href="#" class="icon">Instagram<img src="img/ig.jpg" alt="Instagram"></a></p>
+                <p><a href="#" class="icon">Tiktok<img src="img/tt.jpg" alt="Tiktok"></a></p>
+            </div>
+            
+            
+            <div class="col-md-4 footer-section pago">
+                <h3>Medios de Pago</h3>
+                <p><img src="img/pagos.jpg" alt="Medios de Pago"></p>
+            </div>
+        </div>
+        <p>&copy; 2024 Wisles Variedades. Todos los derechos reservados.</p>
+    </footer>
+    
+</body>
+</html>
