@@ -6,7 +6,7 @@ const {
     getOneById, 
     updateOneById, 
     deleteOneById 
-} = require('../controllers/movieOrBookController');
+} = require('../controllers/author');
 
 router.get('/', getAll);
 router.post('/', createOne);

@@ -1,8 +1,8 @@
-const MovieOrBook = require('../models/movieOrBook');
+const author = require('../models/author');
 
 const getAll = async (req, res) => {
     try {
-        const items = await MovieOrBook.find();
+        const items = await author.find();
         res.json(items);
     } catch (error) {
         res.status(500).json({ message: 'Error al obtener los datos' });
@@ -11,7 +11,7 @@ const getAll = async (req, res) => {
 
 const createOne = async (req, res) => {
     const { title, description, year, genre, directorOrAuthor } = req.body;
-    const newItem = new MovieOrBook({
+    const newItem = new author({
         title,
         description,
         year,
@@ -29,7 +29,7 @@ const createOne = async (req, res) => {
 
 const getOneById = async (req, res) => {
     try {
-        const item = await MovieOrBook.findById(req.params.id);
+        const item = await author.findById(req.params.id);
         if (!item) return res.status(404).json({ message: 'Item no encontrado' });
         res.json(item);
     } catch (error) {
@@ -39,7 +39,7 @@ const getOneById = async (req, res) => {
 
 const updateOneById = async (req, res) => {
     try {
-        const updatedItem = await MovieOrBook.findByIdAndUpdate(req.params.id, req.body, { new: true });
+        const updatedItem = await author.findByIdAndUpdate(req.params.id, req.body, { new: true });
         if (!updatedItem) return res.status(404).json({ message: 'Item no encontrado' });
         res.json(updatedItem);
     } catch (error) {
@@ -49,7 +49,7 @@ const updateOneById = async (req, res) => {
 
 const deleteOneById = async (req, res) => {
     try {
-        const deletedItem = await MovieOrBook.findByIdAndDelete(req.params.id);
+        const deletedItem = await author.findByIdAndDelete(req.params.id);
         if (!deletedItem) return res.status(404).json({ message: 'Item no encontrado' });
         res.json({ message: 'Item eliminado exitosamente' });
     } catch (error) {

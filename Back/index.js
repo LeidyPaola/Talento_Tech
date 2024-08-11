@@ -4,7 +4,7 @@ const dotenv = require('dotenv');
 const path = require('path');
 
 // Rutas
-const movieOrBookRoutes = require('./routes/movieOrBookRoutes');
+const author = require('./routes/author');
 
 // Configuración de dotenv
 dotenv.config();
@@ -23,7 +23,7 @@ mongoose.connect(MONGO_URI)
 app.use(express.json());
 
 // Rutas
-app.use('/api/items', movieOrBookRoutes);
+app.use('/api/items', author);
 
 app.get('/', (req, res) => {
     res.send('API de Libros o Películas');
