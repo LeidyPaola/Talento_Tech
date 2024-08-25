@@ -1,0 +1,35 @@
+feature-card {
+    border:1px solid #ddd;
+    border-radius: 8px;
+    padding: 16px;
+    margin: 10px;
+    width: 40vw;
+    cursor: pointer;
+    transition: all 03s ease;
+    overflow: hidden;
+    
+}
+
+feature-card.expanded {
+    width: 40vw;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+feature-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+feature-title {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    
+}
+
+feature-description {
+    font-size: 1em;
+    color: #555;
+}
